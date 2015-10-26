@@ -52,3 +52,9 @@ To reproduce the graphs as I have checked them in, complete the following steps:
  3. Source the R file you want to run (i.e. `source("plot1.R")`
 
 *Note that as a side effect in your R global environment one or more data/values will be created and a png file will be created in your working directory.*
+
+Resources
+----
+[Clearinghouse for Inventories & Emissions Factors](http://www3.epa.gov/ttnchie1/eiinformation.html)
+[R Graphics Cookbook](http://www.cookbook-r.com/Graphs/)
+[ggplot2](http://ggplot2.org/)
