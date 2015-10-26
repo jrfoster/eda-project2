@@ -45,7 +45,7 @@ Similarly, in identifying sources of coal combustion I considered a few approach
 
 Running the Code
 ----
-To reproduce the graphs I have checked them in, complete the following steps:
+To reproduce the graphs as I have checked them in, complete the following steps:
 
  1. Get a copy of whatever R code you want to run from this repository, place it in a directory on your computer and make that directory your working directory for R (i.e. `setwd()`)
  2. Download the zip file containing the data and unzip it into your working directory preserving any folder names
