@@ -55,6 +55,7 @@ To reproduce the graphs as I have checked them in, complete the following steps:
 
 Resources
 ----
-[Clearinghouse for Inventories & Emissions Factors](http://www3.epa.gov/ttnchie1/eiinformation.html)
-[R Graphics Cookbook](http://www.cookbook-r.com/Graphs/)
-[ggplot2](http://ggplot2.org/)
+
+ 1. [Clearinghouse for Inventories & Emissions Factors](http://www3.epa.gov/ttnchie1/eiinformation.html)
+ 2. [R Graphics Cookbook](http://www.cookbook-r.com/Graphs/)
+ 3. [ggplot2](http://ggplot2.org/)
