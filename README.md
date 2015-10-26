@@ -42,3 +42,13 @@ There was some discussion in the groups about how best to do this, as well as so
 *Identifying Coal Cumbustion Sources*
 
 Similarly, in identifying sources of coal combustion I considered a few approaches, but in the end, settled on using a regular expression and looking for the word "Coal" in EI.Sector in a case sensitive manner.
+
+Running the Code
+----
+To reproduce the graphs I have checked them in, complete the following steps:
+
+ 1. Get a copy of whatever R code you want to run from this repository, place it in a directory on your computer and make that directory your working directory for R (i.e. `setwd()`)
+ 2. Download the zip file containing the data and unzip it into your working directory preserving any folder names
+ 3. Source the R file you want to run (i.e. `source("plot1.R")`
+
+*Note that as a side effect in your R global environment one or more data/values will be created and a png file will be created in your working directory.*
