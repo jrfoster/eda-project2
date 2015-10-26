@@ -26,6 +26,7 @@ You must address the following questions and tasks in your exploratory analysis.
  4. Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
  5. How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
  6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
+
 Notes
 -----
 For the most part, the questions are fairly straightforward, however, a couple of notes are necessary to understand some of the decisions I made in doing the analysis and in producing the graphs.
