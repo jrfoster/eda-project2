@@ -26,3 +26,18 @@ You must address the following questions and tasks in your exploratory analysis.
  4. Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
  5. How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
  6. Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
+Notes
+-----
+For the most part, the questions are fairly straightforward, however, a couple of notes are necessary to understand some of the decisions I made in doing the analysis and in producing the graphs.
+
+*Use of Lines of Best Fit*
+
+In most of the graphs I have included a line of best fit using a simple linear model of the data.  I included these to show the overall trend because I felt that some of the data either introduced peaks/valleys or were either sparse at some points.  Including these linear models makes it clear as to the overall trend of the data.
+
+*Identifying Motor Vehicle Data*
+
+There was some discussion in the groups about how best to do this, as well as some mention that it didn't really matter, as long as there was good rationale behind the decision.  In looking at the SCC data there appeared to be many different approaches that one could take.  I considered utilizing a regular expression on EI.Sector (looking for "Mobile") but doing so included several categories of things that were not motor vehicles (e.g. such as boats, planes and trains as well as lawnmowers, forklifts and mining equipment) which, in my opinion, deviate from the definition of a motor vehicle. Generally speaking, motor vehicles typically operate on roads, can travel more than 25mph, are self-propelled and can transport people or materials. In the end I settled on utilizing Data.Category == 'Onroad" because it included most of what would typically be considered motor vehicles.
+
+*Identifying Coal Cumbustion Sources*
+
+Similarly, in identifying sources of coal combustion I considered a few approaches, but in the end, settled on using a regular expression and looking for the word "Coal" in EI.Sector in a case sensitive manner.
